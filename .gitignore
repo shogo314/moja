@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+rime-out
+*.pyc
+Icon*
+*.swp
+.DS_Store
+Thumbs.db
+*~
+target
