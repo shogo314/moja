@@ -17,7 +17,7 @@ void make_test_nsmall(int idx) {
     int N = rnd.next(MIN_N, 20LL);
     out << N << std::endl;
     std::vector<int> A(N);
-    for (int j = 0; j < N; j++) A[j] = rnd.next(MIN_A, MIN_A);
+    for (int j = 0; j < N; j++) A[j] = rnd.next(MIN_A, MAX_A);
     out << A << std::endl;
     std::vector<int> B(N);
     for (int j = 0; j < N; j++) B[j] = rnd.next(MIN_B, MAX_B);
