@@ -1,6 +1,7 @@
 __pycache__
 .vscode
 rime-out
+moja-out
 *.pyc
 Icon*
 *.swp
