@@ -39,10 +39,10 @@ cd <problem_dir_name>
 ```
 rime add . testset <testset_dir_name>
 ```
+`TESTSET`の中をいい感じに編集
 
-ジェネレータとバリデータの作成
+### ジェネレータとバリデータの作成
 `<testset_dir_name>`内に`generator.cpp`と`validator.cpp`を作成
-
 
 ### 解法の作成
 ```
