@@ -376,8 +376,8 @@ void make_test_random1(int idx) {
     int T = MAX_T;
     out << T << std::endl;
     for (int i = 0; i < T; i++) {
-        int A = rnd.next(MIN_A, MAX_A / 2);
-        int B = rnd.next(MIN_B / 2, MAX_B);
+        int A = rnd.next(MIN_A, MIN_A / 2);
+        int B = rnd.next(MAX_B / 2, MAX_B);
         int C;
         do {
             C = rnd.next(LOCAL_MIN_C, LOCAL_MAX_C);
@@ -440,8 +440,8 @@ void make_test_random2(int idx) {
     int T = MAX_T;
     out << T << std::endl;
     for (int i = 0; i < T; i++) {
-        int A = rnd.next(MIN_A, MAX_A / 2);
-        int B = rnd.next(MIN_B / 2, MAX_B);
+        int A = rnd.next(MIN_A, MIN_A / 2);
+        int B = rnd.next(MAX_B / 2, MAX_B);
         int C;
         do {
             C = rnd.next(LOCAL_MIN_C, LOCAL_MAX_C);
