@@ -26,11 +26,6 @@ class Validator {
             if (ch == EOF) break;
         }
         i = 0;
-        std::cout << "data =";
-        for (int a : data) {
-            std::cout << " " << a;
-        }
-        std::cout << std::endl;
     }
     std::string readString_ascii_letter() {
         std::string ret;
@@ -128,6 +123,7 @@ class SystemClock {
 std::string input() {
     Validator validator;
     std::string s = validator.readString_ascii_lowercase();
+    assert(1 <= s.size() and s.size() <= int(1e6));
     validator.readEof_or_EolnEof();
     return s;
 }
