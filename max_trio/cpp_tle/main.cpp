@@ -8,9 +8,6 @@ void solve() {
     std::sort(v.begin(), v.end());
     while (v[1] > 0) {
         ans++;
-        assert(v[1] > 0);
-        assert(v[2] > 0);
-        assert(v[3] > 0);
         v[1]--;
         v[2]--;
         v[3]--;
