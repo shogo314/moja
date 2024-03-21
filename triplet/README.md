@@ -1,3 +1,4 @@
+参考：[D - Triplet](https://mojacoder.app/users/shobonvip/problems/socc-d-u38oh2mhb55f-triplet)
 # 問題文
 正整数 $N$ が与えられます。非負整数の $3$ つ組 $(a,b,c)$ であって、次の条件をともに満たすものの個数を求めてください。
 
